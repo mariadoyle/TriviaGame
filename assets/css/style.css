@@ -1,0 +1,75 @@
+body 
+{
+    background: black;
+    color: black;
+    font-family: helvetica, arial;
+    font-size: 13px;
+    background: url(http://www.3ders.org/images2016/3d-printing-bring-oscar-statuette-roots-88-academy-awards-2.jpg);
+}
+
+ul{
+    list-style: none;
+}
+
+
+li {
+    font-size: 13px;
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 20px;
+    height: 2em;
+}
+p {
+    font-family: helvetica, arial;
+}
+
+
+.nextButton {
+    border-radius: 6px;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    background-color: grey;
+    clear: both;
+    color: black;
+    font-family: helvetica, arial;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.trivia_question {
+    font-family: helvetica, arial;
+    font-size: 24px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 6px;
+    background-color: grey;
+    text-align: center;
+}
+.trivia_prompt {
+    background-color: grey;
+    border-radius: 6px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+    font-family: helvetica, arial;
+    color: black;
+}
+.trivia_options {
+    font-family: helvetica, arial;
+    color: black;
+}
+.final_score {
+    width: 20%;
+    height: auto;
+    border-radius: 6px;
+    background-color: grey;
+    margin: auto;
+    text-align: center;
+    font-family: helvetica, arial;
+    font-size: 18px;
+}
